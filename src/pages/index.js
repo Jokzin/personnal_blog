@@ -74,6 +74,7 @@ export const pageQuery = graphql`
             shortBio
           }
           title
+          twitter
           heroImage: image {
             fluid(
               maxWidth: 1180

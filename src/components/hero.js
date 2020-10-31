@@ -14,6 +14,7 @@ export default ({ data }) => (
       <h3 className={styles.heroHeadline}>{data.name}</h3>
       <p className={styles.heroTitle}>{data.title}</p>
       <p>{data.shortBio.shortBio}</p>
+      <a href={`https:\/\/www.twitter.com\/${data.twitter}`}>Twitter</a>
     </div>
   </div>
 )
